@@ -1,0 +1,10 @@
+# Create 1
+
+CREATE DATABASE info_3;
+
+CREATE TABLE info_3.auto_i4(
+id INT NOT NULL,
+coco_1 VARCHAR(255),
+coco_2 VARCHAR(255),
+PRIMARY KEY AUTO_INCREMENT(id)
+);
