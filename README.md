@@ -1,2 +1,2 @@
 # SQL_Challenges
-SQL challenges from Edabit, Hakrrank and others.
+SQL challenges from Edabit, Hakerrank and others.
