@@ -35,6 +35,7 @@ JOIN challenges_05_2024.employee AS e2
 ON e1.employee_id = e2.employee_id;
 
 
+# Find and count top earners
 WITH TopEmp AS
 (SELECT (months * salary) AS EmpTop
 FROM challenges_05_2024.employee)
