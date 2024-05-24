@@ -68,6 +68,7 @@ WHERE WP.is_evil = 0
 ORDER BY W.power, age;
 
 #--=-=-
+# Similar to nested loop in Python
 
 SELECT W.id, W.code, W.coins_needed, W.power, WP.code, WP.age, WP.is_evil
 FROM challenges_05_2024.wands AS W
